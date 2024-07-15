@@ -1,0 +1,59 @@
+{
+   ExpandedHierarchyInLayout: "",
+   guistr: "# # String gsaved with Nlview 6.8.5  2018-01-30 bk=1.4354 VDI=40 GEI=35 GUI=JA:1.6 non-TLS
+#  -string -flagsOSRD
+preplace port vsync -pg 1 -y -30 -defaultsOSRD
+preplace port XCLK -pg 1 -y -490 -defaultsOSRD
+preplace port hsync -pg 1 -y -50 -defaultsOSRD
+preplace port SDA -pg 1 -y -550 -defaultsOSRD
+preplace port HREF -pg 1 -y -270 -defaultsOSRD
+preplace port DIP_SW -pg 1 -y -430 -defaultsOSRD
+preplace port CLK -pg 1 -y -340 -defaultsOSRD
+preplace port INIT_DONE_LED -pg 1 -y -510 -defaultsOSRD
+preplace port RST -pg 1 -y -530 -defaultsOSRD
+preplace port DIP_SW2 -pg 1 -y -300 -defaultsOSRD
+preplace port SCL -pg 1 -y -530 -defaultsOSRD
+preplace port VSYNC_IN -pg 1 -y -220 -defaultsOSRD
+preplace portBus DATA_8B -pg 1 -y -180 -defaultsOSRD
+preplace portBus o_top_vga_green -pg 1 -y 70 -defaultsOSRD
+preplace portBus o_top_vga_red -pg 1 -y 50 -defaultsOSRD
+preplace portBus o_top_vga_blue -pg 1 -y 90 -defaultsOSRD
+preplace inst sccb_if_0 -pg 1 -lvl 5 -y -160 -defaultsOSRD
+preplace inst hdmi_generator_0 -pg 1 -lvl 4 -y 20 -defaultsOSRD
+preplace inst blk_mem_gen_0 -pg 1 -lvl 3 -y -70 -defaultsOSRD
+preplace inst rgb565_ctrl_0 -pg 1 -lvl 1 -y -120 -defaultsOSRD
+preplace inst clk_wiz_0 -pg 1 -lvl 2 -y -340 -defaultsOSRD
+preplace inst sccb_rom_0 -pg 1 -lvl 4 -y -340 -defaultsOSRD
+preplace netloc hdmi_generator_0_o_top_vga_green 1 4 2 1520 70 NJ
+preplace netloc sccb_if_0_SDA 1 5 1 1880
+preplace netloc rgb565_ctrl_0_addra 1 1 2 380J -130 740
+preplace netloc clk_wiz_0_XCLK 1 2 4 720 -490 NJ -490 NJ -490 NJ
+preplace netloc hdmi_generator_0_o_top_vga_red 1 4 2 1520 50 NJ
+preplace netloc DIP_SW2_1 1 0 4 NJ -300 380 -260 N -260 1160
+preplace netloc sccb_rom_0_SREG 1 4 1 1510
+preplace netloc sccb_if_0_CLK_200K_POS_EDGE 1 3 3 1160 -440 N -440 1870
+preplace netloc VSYNC_IN_1 1 0 1 -240
+preplace netloc hdmi_generator_0_hsync 1 4 2 1510 -50 NJ
+preplace netloc sccb_if_0_ADDR_ROM 1 3 3 1170 -240 1500J -260 1860
+preplace netloc hdmi_generator_0_o_top_vga_blue 1 4 2 1520 90 NJ
+preplace netloc hdmi_generator_0_vsync 1 4 2 1510 -30 NJ
+preplace netloc rgb565_ctrl_0_DATA_OUT 1 1 2 NJ -120 710
+preplace netloc rgb565_ctrl_0_DATA_EN 1 1 2 NJ -140 720
+preplace netloc CLK 1 0 2 -210 -340 N
+preplace netloc sccb_if_0_SCL 1 5 1 1890
+preplace netloc HREF_1 1 0 1 -230
+preplace netloc hdmi_generator_0_addrb 1 2 3 740 140 NJ 140 1510
+preplace netloc clk_wiz_0_CLK_50M 1 2 1 730
+preplace netloc DIP_SW_1 1 0 5 NJ -430 N -430 730 -450 N -450 1520
+preplace netloc blk_mem_gen_0_doutb 1 2 2 760 80 1150
+preplace netloc DATA_8B_1 1 0 1 -250
+preplace netloc hdmi_generator_0_enb 1 2 3 750 150 N 150 1500
+preplace netloc clk_wiz_0_CLK_25M 1 2 3 N -360 1140 -190 N
+preplace netloc sccb_if_0_INIT_DONE 1 5 1 1900
+preplace netloc reset_rtl_1 1 0 5 -220J -420 N -420 N -420 1150 -170 N
+levelinfo -pg 1 -270 230 610 1040 1340 1700 1920 -top -810 -bot 520
+",
+}
+{
+   da_board_cnt: "4",
+}
